@@ -40,9 +40,9 @@ h2{
 
 #liman{
     
-    height: 600px; 
+    height: 660px; 
     position: static;
-    max-width: 1980px;
+    max-width: auto;
     display: flex;
     justify-self: center;
 }
@@ -172,118 +172,118 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    /* Adjust body styles */
+    
     body {
-        margin-top: 0; /* Reset the negative margin */
+        margin-top: 0; 
         background-color: hsl(0, 0%, 96%);
-        height: auto; /* Allow the height to adjust based on content */
-        padding: 10px; /* Add some padding on smaller screens */
+        height: auto;
+        padding: 10px; 
         display: block;
     }
 
-    /* Adjust container styles */
+    
     .container {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column; 
         align-items: center;
         width: 100%;
     }
 
-    /* Heading adjustments */
+    
     h1 {
-        font-size: 2em; /* Reduce font size */
-        text-align: center; /* Center align heading */
-        position: static; /* Reset position */
-        top: auto; /* Remove position offset */
+        font-size: 2em; 
+        text-align: center;
+        position: static; 
+        top: auto; 
     }
 
     h2 {
-        font-size: 1.1em; /* Adjust font size */
-        margin-top: 20px; /* Add margin at the top for spacing */
-        left: 0; /* Remove left position */
-        position: static; /* Reset position */
-        margin-bottom: 20px; /* Ensure it has space below */
+        font-size: 1.1em; 
+        margin-top: 20px; 
+        left: 0; 
+        position: static;
+        margin-bottom: 20px; 
     }
 
-    /* Liman container adjustments */
+    
     #liman {
-        height: auto; /* Let the height adjust automatically */
-        max-width: 100%; /* Ensure it doesn't overflow */
-        padding: 10px; /* Add padding for better spacing */
+        height: auto; 
+        max-width: 100%; 
+        padding: 10px; 
     }
 
-    /* Adjust paragraph size */
+    
     #p1 {
-        width: 100%; /* Full width on small screens */
-        float: none; /* Remove float */
-        padding: 10px; /* Add padding for spacing */
-        font-size: 1em; /* Smaller font size */
+        width: 100%; 
+        float: none; 
+        padding: 10px; 
+        font-size: 1em; 
     }
 
     .second {
-        flex-direction: column; /* Stack items vertically */
-        gap: 20px; /* Reduce gap */
+        flex-direction: column; 
+        gap: 20px; 
         justify-content: center;
     }
 
-    /* Image adjustments */
+    
     #saloni2 {
-        width: 90%; /* Make the image take up more space */
-        margin-left: 5%; /* Keep margin for centering */
-        height: auto; /* Maintain aspect ratio */
+        width: 90%; 
+        margin-left: 5%; 
+        height: auto; 
     }
 
-    /* Heading 3 adjustments */
+   
     h3 {
-        font-size: 2em; /* Adjust font size */
-        text-align: center; /* Center the heading */
-        margin-top: 20px; /* Add margin on top */
+        font-size: 2em;
+        text-align: center; 
+        margin-top: 20px; 
     }
 
-    /* Big about section adjustments */
+    
     .bigabout {
-        flex-direction: column; /* Stack items vertically */
-        gap: 20px; /* Adjust spacing between items */
+        flex-direction: column; 
+        gap: 20px; 
     }
 
     #about {
-        width: 100%; /* Ensure the about section takes full width */
-        padding: 0; /* Remove padding */
-        font-size: 1em; /* Smaller font size */
-        flex-direction: column; /* Stack content vertically */
+        width: 100%; 
+        padding: 0; 
+        font-size: 1em; 
+        flex-direction: column; 
     }
 
     #map {
-        margin-left: 0; /* Reset left margin */
-        width: 100%; /* Take up full width */
-        height: 250px; /* Adjust height for mobile */
+        margin-left: 0; 
+        width: 100%; 
+        height: 250px; 
     }
 
-    /* Footer adjustments */
+    
     footer {
-        padding: 20px; /* Add padding for better spacing */
-        font-size: 1em; /* Adjust font size */
+        padding: 20px; 
+        font-size: 1em;
     }
 
     #p2 {
-        font-size: 1em; /* Adjust font size */
+        font-size: 1em; 
         justify-content: center;
     }
 
-    /* Card layout adjustments */
+   
     .card-wrapper {
-        margin: 10px 0; /* Adjust margin */
-        max-width: 100%; /* Ensure card wrapper doesn't overflow */
+        margin: 10px 0;
+        max-width: 100%; 
     }
 
     .card-list .card-item {
-        flex-direction: column; /* Stack card content vertically */
-        padding: 15px; /* Adjust padding */
-        margin: 10px 0; /* Adjust margin */
+        flex-direction: column; 
+        padding: 15px; 
+        margin: 10px 0; 
     }
 
     .card-list .card-image {
-        width: 100%; /* Make image full width */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto; 
     }
 }
 
